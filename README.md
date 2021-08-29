@@ -1,16 +1,40 @@
 # authy_firex_flux
 
-A new Flutter project.
+A new Flutter project where exploring Firebase Authentication Sytem in Flutter
+
+#
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+#### Add Firebase to your Flutter App
+[This official site helps to do the firebase setup](https://firebase.google.com/docs/flutter/setup?platform=android)
 
-A few resources to get you started if this is your first Flutter project:
+For help getting started with Flutter, view online [documentation](https://flutter.dev/).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### [Setup Flutter](https://flutter.dev/docs/get-started/install)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Clone the repo 
+    $ git clone https://github.com/devkishor8007/authy_firex_flux.git
+    $ cd authy_firex_flux/
+
+#### Get flutter dependencies
+    $ flutter pub get
+    
+#### Run the app
+     $ flutter run
+     
+#
+
+### Features
+
+- User can Login,Logout and Signup the app.
+- User can change password.
+- User can reset the password through email.
+- User can verify their email
+
+#
+
+### Resources
+- [Flutter Docs](https://flutter.dev/docs)
+- [FlutterFire Docs](https://firebase.flutter.dev/docs/overview/)
+
