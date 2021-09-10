@@ -31,10 +31,12 @@ For help getting started with Flutter, view online [documentation](https://flutt
 - User can change password.
 - User can reset the password through email.
 - User can verify their email
+- User can access the app through gmail account
 
 #
 
 ### Resources
 - [Flutter Docs](https://flutter.dev/docs)
 - [FlutterFire Docs](https://firebase.flutter.dev/docs/overview/)
+- [Flutter Firebase Auth Social Docs](https://firebase.flutter.dev/docs/auth/social)
 
