@@ -188,6 +188,26 @@ class _LoginScreenState extends State<LoginScreen> {
                       }),
                     ],
                   ),
+                  SizedBox(
+                    height: size.height * 0.02,
+                  ),
+                  makeText("Or"),
+                  SizedBox(
+                    height: size.height * 0.02,
+                  ),
+                  InkWell(
+                    onTap: () async {
+                      final gs = await AuthServices.signInwithGoogle();
+                      if (gs != null) {
+                        pushReplacement(context, FirebaseAuthChecker());
+                      } else {
+                        print("Error");
+                      }
+                    },
+                    child: Container(
+                        height: size.height * 0.05,
+                        child: Image.asset('assets/gmail.png')),
+                  ),
                 ],
               ),
             ),

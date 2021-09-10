@@ -61,7 +61,7 @@ class _ResetPasswordState extends State<ResetPassword> {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
                           duration: Duration(seconds: 1),
-                          content: makeText("Change Your Email!"),
+                          content: makeText("Check Your Email!"),
                         ),
                       );
                     }
